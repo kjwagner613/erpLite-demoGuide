@@ -11,16 +11,11 @@ body {
     /* flex-direction: column;
     align-items: center;
     justify-content: center; */
-    background-image: url('manOnCliff.webp');
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100vw;
+    width: 80%;
     background-color: rgba(0, 0, 0, 0.4);
-    margin-top: 50%;
+    margin-top: 1%;
     /* transform: translateY(-50%); */
-    padding: 2vh 0;
+    padding: 2vh 2vw;
     /* Optional: adds a semi-transparent overlay for better text visibility */
 }
 
@@ -94,16 +89,8 @@ h2 {
     /* height: 100%;
     width: 60%; */
     margin-left: .2vw;
+    padding: 1em 4em;
     background: rgba(237, 220, 178, 0.7);
-    -webkit-mask-image: linear-gradient(to right,
-            transparent 0%,
-            black 15%,
-            black 85%,
-            transparent 100%);
-    mask-image: linear-gradient(to right,
-            transparent 0%,
-            black 15%,
-            black 85%,
-            transparent 100%);
+
 
 }
